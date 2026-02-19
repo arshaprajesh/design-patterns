@@ -122,7 +122,7 @@ Paid 200 using UPI
 
 **steps**
 . Clone the repository
-git clone <repo-url>
+git clone (https://github.com/arshaprajesh/design-patterns.git)
 cd <project-folder>
 
 . Navigate to Main.java
