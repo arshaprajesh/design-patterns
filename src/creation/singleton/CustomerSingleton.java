@@ -6,6 +6,7 @@ public class CustomerSingleton {
 
     //Private Constructor
     private CustomerSingleton() {
+
         counter++;
     }
 

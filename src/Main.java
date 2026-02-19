@@ -1,3 +1,6 @@
+import behavioral.Strategy.StrategyDemo;
+import behavioral.iterator.IteratorDemo;
+import behavioral.state.StateDemo;
 import creation.builder.User;
 import creation.factory.Notification;
 import creation.factory.NotificationFactory;
@@ -33,5 +36,21 @@ public class Main {
                 .setName("arshaBabu")
                 .build();
         System.out.println(user2);
+
+
+        // Iterator Test
+        System.out.println("Iterator Pattern Output:");
+        IteratorDemo.run();
+
+        //state test
+
+        System.out.println("State Pattern Output:");
+        StateDemo.run();
+
+        //strategy test
+
+        System.out.println("Strategy Pattern Output:");
+        StrategyDemo.run();
+
     }
 }
