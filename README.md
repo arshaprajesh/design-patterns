@@ -1,15 +1,24 @@
 Design Patterns – Java (Singleton, Factory, Builder)
-This project demonstrates three fundamental Creational Design Patterns in Java:
+This project demonstrates six fundamental Design Patterns in Java:
 
+Creational Patterns
 Singleton Pattern
 
 Factory Pattern
 
 Builder Pattern
 
+Behavioral Patterns
+Iterator Pattern
+
+State Pattern
+
+Strategy Pattern
+
 Each pattern is implemented in its own package and tested through a single Main.java class.
 
-<img width="378" height="243" alt="image" src="https://github.com/user-attachments/assets/35e00dfd-b613-4557-95cd-265fe7ce2a1d" />
+<img width="243" height="222" alt="image" src="https://github.com/user-attachments/assets/acfbee8d-1dfd-4f5a-bcd4-a766ef431969" />
+
 
 1️⃣ Singleton Pattern
 ✔ Purpose
@@ -61,6 +70,55 @@ Readable object creation
 Expected Output:
 
 User{name='Prajesh', age=25, email='prajesh@gmail.com'}
+
+4️⃣ Iterator Pattern
+✔ Purpose
+Traverse a collection one item at a time without exposing its internal structure.
+
+✔ Use Cases
+Looping through arrays/lists
+
+Custom collection traversal
+
+Pagination systems
+
+✔ Expected Output
+
+A
+B
+C
+
+5️⃣ State Pattern
+✔ Purpose
+Allows an object to change its behavior when its internal state changes.
+
+✔ Use Cases
+Vending machines
+
+Traffic lights
+
+Media players (Play, Pause, Stop)
+
+✔ Expected Output
+
+Machine is in START state
+Machine is in STOP state
+
+6️⃣ Strategy Pattern
+✔ Purpose
+Defines a family of algorithms and lets you choose one at runtime.
+
+✔ Use Cases
+Payment methods
+
+Sorting strategies
+
+Compression algorithms
+
+✔ Expected Output
+
+Paid 100 using CARD
+Paid 200 using UPI
 
 **steps**
 . Clone the repository
