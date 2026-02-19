@@ -1,4 +1,4 @@
-package factory;
+package creation.factory;
 
 public class SMSNotification implements Notification{
     public void send() {
